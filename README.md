@@ -37,3 +37,8 @@ Simulation: LTspice(für Schaltverhalten und thermische Analyse)
 Berechnungshilfen: TI Power Designer, WEBENCH
 Messung & Validierung: Oszilloskop, Lastwiderstände
 
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/f6d65189-bcd3-462a-92f6-42a8efdda5ac" />
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/2a188489-aa51-4511-9cdc-9d84c0223dd1" />
+
+
