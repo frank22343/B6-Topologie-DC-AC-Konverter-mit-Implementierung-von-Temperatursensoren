@@ -15,18 +15,18 @@ Temperatursensoren: **TMP1075DGKR** zur Überwachung kritischer Komponenten
 Schutzmechanismen: Temperaturabschaltung, Lüftersteuerung, Überspannungsschutz
 Leiterplattenlayout: EMV-gerechtes Design mit Massekonzept und kurzen Gate-Leitungen
 
-# 1. Leistungsteil (Rechts im Schaltplan)
+# 1. Leistungsteil (Oben im Zentrum)
 Sechs Leistungstransistoren bilden die klassische B6-Brücke (3 Halbbrücken).
 Jeder Zweig erzeugt eine Phase der Ausgangsspannung.
 Zwischen den Brückenzweigen und dem Lastanschluss sind Freilaufdioden und Snubber-Netzwerke integriert.
 
-# 2. Gate-Treiber (Links im Schaltplan)
+# 2. Gate-Treiber (im Zentrum)
 Jede Halbbrücke wird über einen eigenen Gate-Treiber-IC angesteuert.
 Die Ansteuerung erfolgt differenziell oder per PWM über isolierte Signale.
 Galvanische Trennung (z. B. über Transformatoren oder Optokoppler) schützt die Steuerlogik.
 Bootstrap-Kondensatoren ermöglichen High-Side-Ansteuerung.
 
-# 3. Temperatursensorik (Mitte im Schaltplan)
+# 3. Temperatursensorik (Neben Leistungsschalter)
 Temperaturmessung an MOSFETs, Kühlkörper oder Transformator über TMP1075DGKR.
 Verstärkung und Aufbereitung des Sensorsignals zur Weiterverarbeitung (z. B. durch ADC).
 Bei Überschreitung eines Schwellwerts wird ein Schutzsignal ausgelöst oder ein Lüfter aktiviert.
