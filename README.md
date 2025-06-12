@@ -3,6 +3,9 @@
 **Beschreibung:**
 Im Rahmen dieses Projekts wurde ein dreiphasiger DC/AC-Konverter in B6-Topologie entwickelt, der aus einer Gleichspannungsquelle eine symmetrische dreiphasige Wechselspannung erzeugt. Der Aufbau umfasst eine vollständig integrierte Gate-Treiber-Sektion mit galvanischer Trennung sowie eine Temperaturüberwachung der Leistungshalbleiter zur Erhöhung der Betriebssicherheit. Ziel war ein kompakter, effizienter und thermisch überwachter Wechselrichter für industrielle Anwendungen oder Motoransteuerungen.
 
+![Screenshot 2025-06-12 030200](https://github.com/user-attachments/assets/7fd6c711-e7ef-49f9-9825-48bb0435c78f)
+
+
 # Technische Hauptmerkmale
 
 Topologie: Dreiphasiger Brückenwechselrichter (B6-Topologie)
